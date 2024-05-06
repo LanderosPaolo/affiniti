@@ -1,0 +1,23 @@
+.logo-footer {
+    max-width: 150px;
+    height: auto;
+}
+
+.fa-x-twitter {
+    color: #fff;
+}
+
+.fa-instagram {
+    color: transparent;
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.fa-facebook {
+    color: #0866ff;
+}
+
+.fa-whatsapp {
+    color: #25d366;
+}
