@@ -21,3 +21,10 @@
 .fa-whatsapp {
     color: #25d366;
 }
+
+.fa-linkedin {
+    color: transparent;
+    background: #0a66c2;
+    -webkit-background-clip: text;
+    background-clip: text;
+}

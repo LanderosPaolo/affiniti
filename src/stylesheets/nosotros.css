@@ -1,6 +1,6 @@
-/* .nosotros {
-    background: #495057;
-} */
+.nosotros {
+    font-weight: bold;
+}
 
 .nosotros h2 {
     font-size: 2.5rem;
@@ -19,4 +19,10 @@
 
 .nosotros li i {
     color: #50dd02;
+}
+
+.accordion {
+    --bs-accordion-active-bg: rgba(80, 221, 2, 0.5);
+    --bs-accordion-active-color: #000;
+    --bs-accordion-btn-focus-box-shadow: none;
 }
