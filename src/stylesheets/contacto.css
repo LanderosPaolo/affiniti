@@ -1,0 +1,32 @@
+.contacto-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+.contacto-box {
+    text-align: center;
+}
+
+.contacto-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contacto-item i {
+    color: #007bff;
+}
+
+.contacto-item p {
+    margin: 0;
+    margin-left: 10px;
+    color: #333;
+}

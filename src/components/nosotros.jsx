@@ -7,16 +7,17 @@ function Nosotros() {
             <div className="row ">
                 <div className="col-md-6">
                     <h3 className='text-center mt-4'>Sobre AFFINITI</h3>
-                    <p>Es fundada a finales del año 2020, por dos profesionales idealistas y con fuertes ganas de formar una nueva compañía en la cual puedan desarrollar y ejecutar todas cualidades y habilidades, que han forjado durante los años de experiencia en distintas áreas.</p>
-                    <p><i>“Hay muchas malas razones para empezar una empresa. Pero solo hay una buena razón y creo que sabes cuál es: para cambiar el mundo”</i> - Phil Libin, Fundador de Evernote.</p>
+                    <p>Affiniti se fundó con la visión de ingenieros con una vasta experiencia en seguridad informática y de redes.
+                        Esta sólida base nos capacita para garantizar la excelencia en nestros servicios y cultivar la confianza de nuestros clientes
+                    </p>
                 </div>
                 <div className="col">
                     <div>
                         <h3 className='text-center mt-4'>Nuestras Virtudes</h3>
                         <ul>
-                            <li><i className="fa-solid fa-square-check mx-1"></i>Seriedad y orientacíon al cliente.</li>
-                            <li><i className="fa-solid fa-square-check mx-1"></i>Permanente capacitacion en distintas áreas de desarrollo de la seguridad de la información</li>
-                            <li><i className="fa-solid fa-square-check mx-1"></i>Compromiso y actitud positiva frente a cada desafío</li>
+                            <li><i className="fa-solid fa-square-check mx-1"></i>Compromiso y enfoque centrado en el cliente.</li>
+                            <li><i className="fa-solid fa-square-check mx-1"></i>Formación continua en diversas áreas del desarrollo de la seguridad de la información</li>
+                            <li><i className="fa-solid fa-square-check mx-1"></i>Dedicación y actitud positiva ante cada desafío</li>
                         </ul>
                     </div>
                     <div className=''>
@@ -29,7 +30,7 @@ function Nosotros() {
                                 </h2>
                                 <div id="flush-collapseOne" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                     <div className="accordion-body fw-medium">
-                                        Mantener objetivos claros en pro de la seguridad de la información de cada uno de nuestros clientes, a través de gestiones, productos y servicios del siguiente nivel que le garantice la tranquilidad de dejar en nuestras manos la continuidad operacional de sus negocios.
+                                        Nuestra misión es garantizar la seguridad de la información de nuestros clientes mediante soluciones de vanguardia que les brinden tranquilidad en la continuidad de sus negocios.
                                     </div>
                                 </div>
                             </div>
@@ -41,7 +42,7 @@ function Nosotros() {
                                 </h2>
                                 <div id="flush-collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                     <div className="accordion-body fw-medium">
-                                        Como compañía, queremos trascender a través de los años de la mano del reconocimiento y prestigio por los servicios brindados, además de llegar a ser un aporte positivo en lo que respecta a la seguridad de la información a nivel nacional.
+                                    Como empresa, aspiramos a trascender en el tiempo gracias al reconocimiento y prestigio que obtenemos por nuestros servicios. Nos esforzamos por convertirnos en un contribuyente destacado en la mejora de la seguridad de la información a nivel nacional.
                                     </div>
                                 </div>
                             </div>
