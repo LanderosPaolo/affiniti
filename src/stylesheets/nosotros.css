@@ -21,6 +21,11 @@
     color: #50dd02;
 }
 
+.nosotros ul {
+    padding: 0;
+    margin: 0;
+}
+
 .accordion {
     --bs-accordion-active-bg: rgba(80, 221, 2, 0.5);
     --bs-accordion-active-color: #000;

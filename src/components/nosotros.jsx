@@ -20,7 +20,7 @@ function Nosotros() {
                             <li><i className="fa-solid fa-square-check mx-1"></i>Dedicación y actitud positiva ante cada desafío</li>
                         </ul>
                     </div>
-                    <div className=''>
+                    <div className='mt-2'>
                         <div className="accordion accordion-flush" id="accordionFlushExample">
                             <div className="accordion-item">
                                 <h2 className="accordion-header">
