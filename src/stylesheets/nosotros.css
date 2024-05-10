@@ -1,5 +1,6 @@
 .nosotros {
     font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .nosotros h2 {
@@ -27,7 +28,16 @@
 }
 
 .accordion {
-    --bs-accordion-active-bg: rgba(80, 221, 2, 0.5);
+    --bs-accordion-active-bg: rgba(80, 221, 2, 0.9);
     --bs-accordion-active-color: #000;
     --bs-accordion-btn-focus-box-shadow: none;
+    background-color: transparent;
+}
+
+.accordion-item {
+    background-color: transparent;
+}
+
+.accordion-button {
+    background-color: transparent;
 }

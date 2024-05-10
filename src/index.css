@@ -1,4 +1,18 @@
-* {
+body {
     margin: 0;
     padding: 0;
+    background-image: url('./imgs/pexels-pixabay-60504.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Fija la imagen de fondo */
+}
+
+.banner-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
