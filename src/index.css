@@ -4,7 +4,7 @@ body {
     background-image: url('./imgs/pexels-pixabay-60504.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; /* Fija la imagen de fondo */
+    background-attachment: fixed;
 }
 
 .banner-container {
@@ -15,4 +15,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+@media (max-width: 992px) {
+    body {
+        background-size: cover;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        background-size: cover;
+    }
 }
