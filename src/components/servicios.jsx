@@ -48,12 +48,12 @@ const servicios = [
 
 function Services() {
     return (
-        <div className='color-bg'>
-            <div className="d-flex flex-column justify-content-center text-center pt-5" id='hacer'>
+        <div>
+            <div className="text-center my-4" id='hacer'>
                 <h2 className='titulo'>Nuestros Servicios</h2>
             </div>
             <div className='wrap my-3'>
-                <div className='d-flex servicio-container'>
+                <div className='servicio-container'>
                     {servicios.map((servicio, index) => (
                         <div className="tarjeta-wrap" key={index}>
                             <div className="tarjeta">
