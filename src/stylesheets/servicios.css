@@ -64,6 +64,10 @@
 
 .titulo-servicio {
     text-align: center;
+    /* color: #50dd02; */
+    color: #fff;
+    box-shadow: 0 0 10px black;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .trasera {
