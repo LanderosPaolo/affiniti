@@ -62,7 +62,7 @@
     color: #50dd02;
 }
 
-.fa-x-twitter {
+/* .fa-x-twitter {
     color: #fff;
 }
 
@@ -79,11 +79,39 @@
 
 .fa-whatsapp {
     color: #25d366;
-}
+} */
 
 .fa-linkedin {
-    color: transparent;
-    background: #0a66c2;
-    -webkit-background-clip: text;
-    background-clip: text;
+    font-size: 2em;
+    color: #0a66c2;
+    background: #fff; 
+    border-radius: 5%;
+    padding: 0.2em;
+    transition: transform 0.3s;
+}
+
+.fa-linkedin:hover {
+    transform: scale(1.3);
+}
+
+@media (max-width: 576px) {
+    .principal {
+        display: flex;
+        flex-direction: column;
+    }
+    .mensaje {
+        margin-top: 40px;
+    }
+    .tarjeta-contacto p {
+        text-align: center;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+    .mensaje {
+        margin: 0 0 0 20px;
+    }
+    .tarjeta-contacto p {
+        text-align: center;
+    }
 }
