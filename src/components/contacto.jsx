@@ -25,13 +25,25 @@ function Contacto() {
                     </div>
                 </div>
             </div>
-            <div className='tarjeta-contacto'>
+            <div className='tarjeta-contacto d-flex flex-column justify-content-center align-items-center'>
                 <div className='imgen-titulo text-center'>
                     <div className='imagen bg-black'>
-                        <img src={inicial} alt="" />
+                        <img className='ms-1' src={inicial} alt="Logo-Affiniti" />
                     </div>
                     <div className='titulo-tarjeta'>
-                        <h3><b>A</b>ffini<b>ti</b></h3>
+                        <h3 className='fw-bold'><b>A</b>ffini<b>ti</b></h3>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p>Brindando soluciones para su empresa</p>
+                    </div>
+                    <div>
+                        <a href='#' target='_blank'><i className="fa-brands fa-x-twitter"></i></a>
+                        <a href='#' target='_blank'><i className="fa-brands fa-instagram"></i></a>
+                        <a href='#' target='_blank'><i className="fa-brands fa-facebook"></i></a>
+                        <a href='#' target='_blank'><i className="fa-brands fa-whatsapp"></i></a>
+                        <a href='#' target='_blank'><i className="fa-brands fa-linkedin"></i></a>
                     </div>
                 </div>
             </div>

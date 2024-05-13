@@ -32,20 +32,58 @@
 }
 
 .tarjeta-contacto {
-    background-color: red;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5%;
 }
 
 .imagen {
-    display: flex;
-    align-items: center;
+    /* display: flex;
     justify-content: center;
-    width: 100px;
-    height: 100px;
+    align-items: center; */
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
+    overflow: hidden;
+    background-color: #000;
 }
 
 .imagen img {
     max-width: 100%;
-    width: 50%;
+    width: auto;
     height: auto;
+}
+
+.titulo-tarjeta h3 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.titulo-tarjeta b {
+    color: #50dd02;
+}
+
+.fa-x-twitter {
+    color: #fff;
+}
+
+.fa-instagram {
+    color: transparent;
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.fa-facebook {
+    color: #0866ff;
+}
+
+.fa-whatsapp {
+    color: #25d366;
+}
+
+.fa-linkedin {
+    color: transparent;
+    background: #0a66c2;
+    -webkit-background-clip: text;
+    background-clip: text;
 }
