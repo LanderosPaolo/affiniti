@@ -1,32 +1,51 @@
-.contacto-container {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    background-color: #f5f5f5;
-    border-radius: 10px;
+.principal {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
 }
 
-.contacto-box {
-    text-align: center;
+.mensaje-contacto {
+    text-transform: uppercase;
+    color: #50dd02;
 }
 
-.contacto-info {
-    display: flex;
-    flex-direction: column;
+.titulo-contacto {
+    text-transform: uppercase;
 }
 
-.contacto-item {
+.icono {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #50dd02;
 }
 
-.contacto-item i {
-    color: #007bff;
+.icono i {
+    font-size: 20px;
+    color: #fff;
 }
 
-.contacto-item p {
-    margin: 0;
-    margin-left: 10px;
-    color: #333;
+.canales p {
+    font-weight: bold;
+}
+
+.tarjeta-contacto {
+    background-color: red;
+}
+
+.imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.imagen img {
+    max-width: 100%;
+    width: 50%;
+    height: auto;
 }
