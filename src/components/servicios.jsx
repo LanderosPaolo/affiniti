@@ -49,7 +49,7 @@ const servicios = [
 function Services() {
     return (
         <div>
-            <div className="text-center my-4" id='hacer'>
+            <div className="text-center my-4" id='servicios'>
                 <h2 className='titulo'>Nuestros Servicios</h2>
             </div>
             <div className='wrap my-3'>

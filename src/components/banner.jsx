@@ -4,7 +4,7 @@ import '../stylesheets/banner.css'
 
 function Banner() {
     return (
-        <div className="banner">
+        <div className="banner" id='inicio'>
             <img className="video-background " src={video1} alt="" />
             <div className='logo-container'>
                 <img className="logo" src={logo} alt="Affiniti" />

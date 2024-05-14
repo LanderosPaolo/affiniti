@@ -2,7 +2,7 @@ import '../stylesheets/nosotros.css'
 
 function Nosotros() {
     return (
-        <div className="p-5 nosotros">
+        <div className="p-5 nosotros" id='nosotros'>
             <h2 className="text-center">Quiénes Somos</h2>
             <div className="row text-light">
                 <div className="col-md-6">

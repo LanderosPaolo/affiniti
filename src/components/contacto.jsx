@@ -3,7 +3,7 @@ import inicial from '../imgs/logoInicial-removebg-preview.png'
 
 function Contacto() {
     return (
-        <div className='principal d-flex justify-content-evenly align-items-center p-5'>
+        <div className='principal d-flex justify-content-evenly align-items-center p-5' id='contacto'>
             <div className='tarjeta-contacto d-flex flex-column justify-content-center align-items-center'>
                 <div className='imgen-titulo text-center mt-5'>
                     <div className='imagen bg-black'>
