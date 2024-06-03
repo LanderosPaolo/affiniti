@@ -1,15 +1,29 @@
+import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import logo from '../imgs/affinitiLogo-removebg.png';
 import '../stylesheets/navbar.css';
-import IrASeccion from '../utilities/scrollFunction'
+import IrASeccion from '../utilities/scrollFunction';
 
 function Navigation() {
+    const [scrolled, setScrolled] = useState(false);
+
+    const handleScroll = () => {
+        if (window.scrollY > 50) {
+            setScrolled(true);
+        } else {
+            setScrolled(false);
+        }
+    };
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return (
         <nav className="navbar navbar-expand-lg fixed-top">
             <div className="container-fluid">
-                {/* <a className="navbar-brand">
-                    <img className='logo-img' src={logo} alt="Logo" />
-                </a> */}
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -21,9 +35,14 @@ function Navigation() {
                         <a className="nav-link" onClick={() => IrASeccion('contacto')}>Contacto</a>
                     </div>
                 </div>
+                <a href="https://servicios.affiniti.cl/" target='_blank'>
+                    <button className={`custom-button ${scrolled ? 'scrolled' : ''}`}>
+                        {scrolled ? <i class="fa-solid fa-gear"></i> : 'Soporte técnico'}
+                    </button>
+                </a>
             </div>
         </nav>
-    )
+    );
 }
 
 export default Navigation;
