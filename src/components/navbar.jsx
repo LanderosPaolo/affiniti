@@ -35,11 +35,18 @@ function Navigation() {
                         <a className="nav-link" onClick={() => IrASeccion('contacto')}>Contacto</a>
                     </div>
                 </div>
-                <a href="https://servicios.affiniti.cl/" target='_blank' rel='noopener noreferrer'>
+                {/* boton en esquina superior derecha */}
+                <div className='navbar-nav ml-auto'>
+                    <a className={`custom-button ${scrolled ? 'scrolled' : ''}`}>
+                        {scrolled ? <i class="fa-solid fa-gear"></i> : 'Soporte técnico'}
+                    </a>
+                </div>
+                {/* boton por debajo del navbar */}
+                {/* <a href="https://servicios.affiniti.cl/" target='_blank'>
                     <button className={`custom-button ${scrolled ? 'scrolled' : ''}`}>
-                        {scrolled ? <i className="fa-solid fa-gear"></i> : 'Soporte técnico'}
+                        {scrolled ? <i class="fa-solid fa-gear"></i> : 'Soporte técnico'}
                     </button>
-                </a>
+                </a> */}
             </div>
         </nav>
     );
