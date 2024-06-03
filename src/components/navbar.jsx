@@ -35,9 +35,9 @@ function Navigation() {
                         <a className="nav-link" onClick={() => IrASeccion('contacto')}>Contacto</a>
                     </div>
                 </div>
-                <a href="https://servicios.affiniti.cl/" target='_blank'>
+                <a href="https://servicios.affiniti.cl/" target='_blank' rel='noopener noreferrer'>
                     <button className={`custom-button ${scrolled ? 'scrolled' : ''}`}>
-                        {scrolled ? <i class="fa-solid fa-gear"></i> : 'Soporte técnico'}
+                        {scrolled ? <i className="fa-solid fa-gear"></i> : 'Soporte técnico'}
                     </button>
                 </a>
             </div>

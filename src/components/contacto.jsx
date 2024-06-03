@@ -15,7 +15,7 @@ function Contacto() {
                 </div>
                 <div>
                     <div>
-                        <p className='mx-3 fw-bold'>Ofreciendo soluciones empresariales desde 2020</p>
+                        <p className='mx-3 fw-bold'>Ofreciendo soluciones empresariales desde 2021</p>
                     </div>
                     <div className='redes text-center m-5'>
                         {/* <a href='#' target='_blank'><i className="fa-brands fa-x-twitter"></i></a>
