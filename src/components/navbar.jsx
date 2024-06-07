@@ -20,7 +20,7 @@ function Navigation() {
                 </div>
                 {/* El enlace "Soporte" sólo aparece en pantallas grandes */}
                 <div className='navbar-nav ml-auto'>
-                    <a className="nav-link d-none d-lg-block">
+                    <a href='https://servicios.affiniti.cl/' target='_blank' className="nav-link d-none d-lg-block">
                         Soporte
                     </a>
                 </div>
