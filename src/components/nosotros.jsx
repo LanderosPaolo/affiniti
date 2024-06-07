@@ -9,7 +9,7 @@ function Nosotros() {
                 <div className="col-md-6">
                     <h3 className='text-center mt-4'>Sobre AFFINITI</h3>
                     <p className='text-center mt-4'>Affiniti se fundó con la visión de ingenieros con una vasta experiencia en seguridad informática y de redes.
-                        Esta sólida base nos capacita para garantizar la excelencia en nuestros servicios y cultivar la confianza de nuestros clientes
+                        Esta sólida base nos capacita para garantizar la excelencia en nuestros servicios y cultivar la confianza de nuestros clientes.
                     </p>
                 </div>
                 <div className="col">
@@ -17,8 +17,8 @@ function Nosotros() {
                         <h3 className='text-center mt-4'>Nuestras Virtudes</h3>
                         <ul className='mt-4'>
                             <li><i className="fa-solid fa-square-check mx-1"></i>Compromiso y enfoque centrado en el cliente.</li>
-                            <li><i className="fa-solid fa-square-check mx-1"></i>Formación continua en diversas áreas del desarrollo de la seguridad de la información</li>
-                            <li><i className="fa-solid fa-square-check mx-1"></i>Dedicación y actitud positiva ante cada desafío</li>
+                            <li><i className="fa-solid fa-square-check mx-1"></i>Formación continua en diversas áreas del desarrollo de la seguridad de la información.</li>
+                            <li><i className="fa-solid fa-square-check mx-1"></i>Dedicación y actitud positiva ante cada desafío.</li>
                         </ul>
                     </div>
                     <div className='mt-2'>

@@ -10,7 +10,7 @@ function Banner() {
             <img className="video-background " src={video1} alt="" />
             <div className='logo-container'>
                 <img className="logo" src={logo} alt="Affiniti" />
-                <p className='text-center'>Brindamos soluciones: Protegemos Su Mundo Digital</p>
+                <p className='text-center'>Brindamos soluciones: Protegemos su mundo digital</p>
             </div>
         </div>
     );
