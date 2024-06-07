@@ -1,26 +1,9 @@
-import React, { useState, useEffect } from 'react';
+// import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../stylesheets/navbar.css';
 import IrASeccion from '../utilities/scrollFunction';
 
 function Navigation() {
-    const [scrolled, setScrolled] = useState(false);
-
-    const handleScroll = () => {
-        if (window.scrollY > 50) {
-            setScrolled(true);
-        } else {
-            setScrolled(false);
-        }
-    };
-
-    useEffect(() => {
-        window.addEventListener('scroll', handleScroll);
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
-
     return (
         <nav className="navbar navbar-expand-lg fixed-top">
             <div className="container-fluid">
@@ -35,18 +18,19 @@ function Navigation() {
                         <a className="nav-link" onClick={() => IrASeccion('contacto')}>Contacto</a>
                     </div>
                 </div>
-                {/* boton en esquina superior derecha */}
+                {/* El enlace "Soporte" sólo aparece en pantallas grandes */}
                 <div className='navbar-nav ml-auto'>
-                    <a className={`custom-button ${scrolled ? 'scrolled' : ''}`}>
-                        {scrolled ? <i class="fa-solid fa-gear"></i> : 'Soporte técnico'}
+                    <a className="nav-link d-none d-lg-block">
+                        Soporte
                     </a>
                 </div>
-                {/* boton por debajo del navbar */}
-                {/* <a href="https://servicios.affiniti.cl/" target='_blank'>
-                    <button className={`custom-button ${scrolled ? 'scrolled' : ''}`}>
-                        {scrolled ? <i class="fa-solid fa-gear"></i> : 'Soporte técnico'}
-                    </button>
-                </a> */}
+                {/* El botón verde con el ícono de engranaje sólo aparece en pantallas pequeñas */}
+            </div>
+            {/* Botón verde fijo en la esquina inferior derecha para pantallas pequeñas */}
+            <div className="fixed-button d-lg-none">
+                <a className="custom-button">
+                    <i className="fa-solid fa-gear"></i>
+                </a>
             </div>
         </nav>
     );

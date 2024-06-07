@@ -14,6 +14,7 @@
     font-weight: bold;
 }
 
+/* Quitando las viñetas de la lista */
 .nosotros li {
     list-style: none;
 }
@@ -28,10 +29,14 @@
 }
 
 .accordion {
-    --bs-accordion-active-bg: rgba(80, 221, 2, 0.9);
-    --bs-accordion-active-color: #000;
-    --bs-accordion-btn-focus-box-shadow: none;
-    background-color: transparent;
+    /* Color de fondo del acordeón activo */
+    --bs-accordion-active-bg: rgba(80, 221, 2, 0.9); 
+    /* Color del texto del acordeón activo */
+    --bs-accordion-active-color: #000; 
+    /* Elimina la sombra al enfocar el botón del acordeón */
+    --bs-accordion-btn-focus-box-shadow: none; 
+    /* Fondo transparente del acordeón */
+    background-color: transparent; 
 }
 
 .accordion-item {

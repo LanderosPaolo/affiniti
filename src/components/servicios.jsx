@@ -50,17 +50,17 @@ function Services() {
     return (
         <div>
             <div className="text-center my-4" id='servicios'>
-                <h2 className='titulo'>Nuestros Servicios</h2>
+                <h2 className='titulo fw-bold'>Nuestros Servicios</h2>
             </div>
             <div className='wrap my-3'>
-                <div className='servicio-container'>
+                <div className='servicio-container d-flex flex-wrap justify-content-center'>
                     {servicios.map((servicio, index) => (
                         <div className="tarjeta-wrap" key={index}>
                             <div className="tarjeta">
                                 <div className="delantera">
                                     <i className="fa-solid fa-repeat icono-repeticion"></i>
                                     <div className="imagen-fondo" style={{ backgroundImage: `url(${servicio.imagen})` }}></div>
-                                    <h3 className="titulo-servicio">{servicio.titulo}</h3>
+                                    <h3 className="titulo-servicio fw-bold">{servicio.titulo}</h3>
                                 </div>
                                 <div className="trasera d-flex flex-column justify-content-center text-center">
                                     <h3><b>{servicio.titulo}</b></h3>

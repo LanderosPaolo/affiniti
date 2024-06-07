@@ -1,5 +1,7 @@
-import '../stylesheets/contacto.css'
+// Importaos el logo y lo asignamos a su respectiva variable
 import inicial from '../imgs/logoInicial-removebg-preview.png'
+// Importamos su respectiva hoja de estilo
+import '../stylesheets/contacto.css'
 
 function Contacto() {
     return (

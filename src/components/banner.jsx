@@ -1,5 +1,7 @@
+// Importamos el logo y el video y lo asignamos a sus respectivas variables
 import video1 from '../videos/dots.gif'
 import logo from '../imgs/affinitiLogo-removebg.png';
+// Importamos la hoja de estilo para banner.jsx
 import '../stylesheets/banner.css'
 
 function Banner() {
@@ -14,4 +16,4 @@ function Banner() {
     );
 }
 
-export default Banner
+export default Banner;

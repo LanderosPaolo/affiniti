@@ -1,5 +1,7 @@
-import '../stylesheets/footer.css'
+// Importamos el logo y lo asignamos a su respectiva variable
 import logo from '../imgs/affinitiLogo-removebg.png'
+// Importamos su respectiva hoja de estilo
+import '../stylesheets/footer.css'
 
 function Footer() {
     return (
@@ -10,13 +12,6 @@ function Footer() {
                     <p><i className="fa-regular fa-copyright mx-1"></i>Copyrights 2021 Diseñado por AffiniTI Labs</p>
                 </div>
             </div>
-            {/* <div className='fs-3 d-flex flex-wrap gap-3'>
-                <a href='#' target='_blank'><i className="fa-brands fa-x-twitter"></i></a>
-                <a href='#' target='_blank'><i className="fa-brands fa-instagram"></i></a>
-                <a href='#' target='_blank'><i className="fa-brands fa-facebook"></i></a>
-                <a href='#' target='_blank'><i className="fa-brands fa-whatsapp"></i></a>
-                <a href='#' target='_blank'><i className="fa-brands fa-linkedin"></i></a>
-            </div> */}
         </div>
     )
 }

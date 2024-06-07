@@ -1,14 +1,15 @@
+// Importamos su respectiva hoja de estilo
 import '../stylesheets/nosotros.css'
 
 function Nosotros() {
     return (
         <div className="p-5 nosotros" id='nosotros'>
-            <h2 className="text-center">Quiénes Somos</h2>
+            <h2 className="text-center">¿Quiénes Somos?</h2>
             <div className="row text-light">
                 <div className="col-md-6">
                     <h3 className='text-center mt-4'>Sobre AFFINITI</h3>
                     <p className='text-center mt-4'>Affiniti se fundó con la visión de ingenieros con una vasta experiencia en seguridad informática y de redes.
-                        Esta sólida base nos capacita para garantizar la excelencia en nestros servicios y cultivar la confianza de nuestros clientes
+                        Esta sólida base nos capacita para garantizar la excelencia en nuestros servicios y cultivar la confianza de nuestros clientes
                     </p>
                 </div>
                 <div className="col">
