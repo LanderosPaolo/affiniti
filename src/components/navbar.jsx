@@ -28,7 +28,7 @@ function Navigation() {
             </div>
             {/* Botón verde fijo en la esquina inferior derecha para pantallas pequeñas */}
             <div className="fixed-button d-lg-none">
-                <a className="custom-button">
+                <a href='https://servicios.affiniti.cl/' target='_blank' className="custom-button">
                     <i className="fa-solid fa-gear"></i>
                 </a>
             </div>
